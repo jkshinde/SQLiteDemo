@@ -31,7 +31,7 @@ public class FrndsContProvdr extends ContentProvider
 
     public String getType(Uri uri)
     {
-        
+
        if(MATCHER.match(uri)==FRNDS_LIST)
        {
            return MIME_TYPE_1;

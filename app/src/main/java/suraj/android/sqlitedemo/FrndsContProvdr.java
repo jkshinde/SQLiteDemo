@@ -9,8 +9,6 @@ import android.content.UriMatcher;
 import android.database.Cursor;
 import android.net.Uri;
 
-import java.util.regex.Matcher;
-
 /**
  * Created by Tata Strive on 10/6/2017.
  */
@@ -33,6 +31,7 @@ public class FrndsContProvdr extends ContentProvider
 
     public String getType(Uri uri)
     {
+        
        if(MATCHER.match(uri)==FRNDS_LIST)
        {
            return MIME_TYPE_1;

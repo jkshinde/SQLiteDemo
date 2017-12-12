@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/frnd_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="ID : 12"/>
+
+    <EditText
+        android:id="@+id/edit_frndName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Name"/>
+
+    <EditText
+        android:id="@+id/edit_frndAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Age"/>
+
+    <EditText
+        android:id="@+id/edit_frndHobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Hobby"/>
+
+    <EditText
+        android:id="@+id/edit_frndQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Quality"/>
+
+
+
+</LinearLayout>

@@ -54,7 +54,7 @@ public class FrndsContProvdr extends ContentProvider
         Context context = getContext();
         handler = new DatabaseHandler(context, "tata_friends",null,1);
 
-        System.out.println("Returning ***********************In query**************************************");
+        System.out.println("Returning ***********************In the query**************************************");
 
         String id=null;
         Cursor c = null;
